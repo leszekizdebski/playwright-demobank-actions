@@ -7,7 +7,6 @@ on:
 
 jobs:
  run-tests:
-   timeout-minutes: 5
    runs-on: ubuntu-latest
    steps:
      - name: Display text on console
@@ -21,4 +20,4 @@ jobs:
      - name: Install Playwright Browsers
        run: npx playwright install --with-deps
      - name: Run Playwright smoke tests
-       run: npm run test smoke
+       run: npm run test:smoke
