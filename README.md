@@ -1,4 +1,6 @@
 # Test Automation training from jaktestowac.pl
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fleszekizdebski%2Fplaywright-demobank-actions.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fleszekizdebski%2Fplaywright-demobank-actions?ref=badge_shield)
+
 
 This is a Test Automation project based on `Playwright` and `TypeScript`.  
 The tested page is a simple demo of a bank.
@@ -266,3 +268,7 @@ Then use page in tests:
     const loginPage = new LoginPage(page)
     await loginPage.login(userId, userPassword)
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fleszekizdebski%2Fplaywright-demobank-actions.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fleszekizdebski%2Fplaywright-demobank-actions?ref=badge_large)
